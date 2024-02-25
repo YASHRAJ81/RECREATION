@@ -105,11 +105,13 @@ body {
   width: 100%;
   z-index: 1;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #head nav {
   display: flex;
-  
 }
 
 #head nav img {
@@ -122,7 +124,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 25%;
+  margin-left: 80px;
   /* position: relative; */
 }
 
@@ -130,7 +132,6 @@ body {
   width: 100%;
   height: auto;
   margin-top: 10%;
-  
 }
 
 /* first content */
@@ -143,17 +144,16 @@ body {
   align-items: center;
 }
 
-.first-content h1{
+.first-content h1 {
   color: rgb(41, 39, 39);
   font-size: 80px;
 }
 
-.first-content p{
+.first-content p {
   color: rgb(63, 63, 63);
 }
 
-
-.second-content{
+.second-content {
   width: 100%;
   height: 700px;
   background-color: white;
@@ -162,13 +162,69 @@ body {
   align-items: center;
 }
 
+#news-first-div {
+  display: flex;
+
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#news-first-div div h2{
+  font-size: 40px;
+}
+
+#news-first-div div p{
+  color: rgb(58, 54, 54);
+}
+
+#news-second-div {
+  display: flex;
+  
+}
+
+.news-content{
+  padding: 20px 20px 20px 0px;
+}
+
+#news-second-div *{
+  font-size: 19px;
+}
 
 
+#news-second-div a img{
+  width: 220px;
+  height: 120px;
+}
+
+#news-second-div p{
+  color: rgb(58, 54, 54);
+}
 
 
+#third-content{
+  width: 100%;
+  height: 400px;
+  margin-bottom: 100px; /*  this must be removed after adding fourth content */
+  background-color: #6bd9cc;
+  
+  display: flex;
+  justify-content: center  ;
+  align-items: center;
+}
 
+#content-in-third{
+  display: inlin
+}
 
+#content-in-third h1{
+  color: white;
+  font-size: 50px;
+  
+}
 
+#content-in-third p{
+  font-size: 20px;
+}
 /* #first-content-img {
   width: 1000px;
   height: 1000px;

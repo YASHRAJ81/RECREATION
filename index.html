@@ -1,73 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FOSS Backstage 2024 – Community, Management & Compliance</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="icon.png" />
-  </head>
-  <body>
-    <!-- Header -->
 
-    <header id="head">
-      <nav>
-        <!-- Logo img at the left -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FOSS Backstage 2024 – Community, Management & Compliance</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="icon.png" />
+</head>
+
+<body>
+  <!-- Header -->
+
+  <header id="head">
+    <nav>
+      <!-- Logo img at the left -->
+
+      <div class="dropdown">
+        <a href="#"><img src="img2.png" alt="" /></a>
+      </div>
+
+      <div id="nav">
+        <div class="dropdown">
+          <button class="dropbtn">About</button>
+          <div class="dropdown-content">
+            <a href="#">About the conference</a>
+            <a href="#">Program Committee</a>
+            <a href="#">FAQ</a>
+          </div>
+        </div>
 
         <div class="dropdown">
-          <a href="#"><img src="img2.png" alt="" /></a>
-        </div>
-
-        <div id="nav">
-          <div class="dropdown">
-            <button class="dropbtn">About</button>
-            <div class="dropdown-content">
-              <a href="#">About the conference</a>
-              <a href="#">Program Committee</a>
-              <a href="#">FAQ</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropbtn">Attend</button>
-            <div class="dropdown-content">
-              <a href="#">Venue</a>
-              <a href="#">Helping Hands</a>
-              <a href="#">Diversity & Inclusion</a>
-              <a href="#">Health & Safety</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropbtn">Program</button>
-            <div class="dropdown-content">
-              <a href="#">Schedule</a>
-              <a href="#">Speakers</a>
-              <a href="#">Sessions</a>
-              <a href="#">Fringe Event</a>
-              <a href="#">FOSS Backstage Design</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropbtn">Partner</button>
-            <div class="dropdown-content">
-              <a href="#">Become a partner</a>
-              <a href="#">Our partner</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <a href="#"><button class="news-button">News</button></a>
-          </div>
-          <div class="dropdown">
-            <a href="#"><button class="tickets-button">Tickets</button></a>
+          <button class="dropbtn">Attend</button>
+          <div class="dropdown-content">
+            <a href="#">Venue</a>
+            <a href="#">Helping Hands</a>
+            <a href="#">Diversity & Inclusion</a>
+            <a href="#">Health & Safety</a>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- End of header -->
 
+        <div class="dropdown">
+          <button class="dropbtn">Program</button>
+          <div class="dropdown-content">
+            <a href="#">Schedule</a>
+            <a href="#">Speakers</a>
+            <a href="#">Sessions</a>
+            <a href="#">Fringe Event</a>
+            <a href="#">FOSS Backstage Design</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Partner</button>
+          <div class="dropdown-content">
+            <a href="#">Become a partner</a>
+            <a href="#">Our partner</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#"><button class="news-button">News</button></a>
+        </div>
+        <div class="dropdown">
+          <a href="#"><button class="tickets-button">Tickets</button></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End of header -->
+  <main>
     <div id="container">
       <div class="first-content">
         <!-- <img src="img3.svg" alt="" id="first-content-img"/> -->
@@ -94,74 +96,106 @@
       </div>
 
       <div class="second-content">
+
         <div id="news">
-          <h2>News</h2>
-        <p>
-          Stay up-to-date about all the latest news around FOSS Backstage, don’t
-          miss any announcements by subscribing via
-          <a href="" style="color: #e60077; text-decoration: none">RSS</a> or
-          follow us on our
-          <a href="" style="color: #e60077; text-decoration: none"
-            >social media channels</a
-          >.
-        </p>
-        <div style="display: flex;">
-          <div class="news-content">
-            <a href=""><img src="rt.jpg" alt="" /></a>
-            <a href="#" style="color: #e60077; text-decoration: none"
-              ><h2>All you need to know for your visit to FOSS Backstage</h2></a
-            >
-            <p>
-              Find out what else you can expect to see at this year’s FOSS
-              Backstage, in addition to the great presentations and workshops.
-            </p>
-            <a href="#" style="color: #e60077; text-decoration: none"
-              >Read more »</a
-            >
-          </div>
-          <div class="news-content">
-            <a href="#"><img src="qq.png" alt="" /></a>
-            <a href="#" style="color: #e60077; text-decoration: none"
-              ><h2>Your sustainable journey to FOSS Backstage</h2></a
-            >
-            <p>
-              Book your trip to FOSS Backstage 2024 with our event ticket from
-              any train station in Germany at fixed prices starting from 55,90€.
-            </p>
 
-            <a href="#" style="color: #e60077; text-decoration: none"
-              >Read More »</a
-            >
-          </div>
-          <div class="news-content">
-            <a href="#"><img src="Board-2-300x170.png" alt="" /></a>
-            <a href="#" style="color: #e60077; text-decoration: none"
-              ><h2>CHAOSS gold badge for FOSS Backstage</h2></a
-            >
+          <div id="news-first-div">
+            <div>
+              <h2>News</h2>
             <p>
-              Once again we are delighted to report that we have been awarded
-              the CHAOSS D&I gold badge.
+              Stay up-to-date about all the latest news around FOSS Backstage, <br> don’t
+              miss any announcements by subscribing via
+              <a href="" style="color: #e60077; text-decoration: none">RSS</a> or
+              follow us <br> on our
+              <a href="" style="color: #e60077; text-decoration: none">social media channels</a>.
             </p>
-
-            <a href="#" style="color: #e60077; text-decoration: none"
-              >Read More »</a
-            >
+            </div>            
           </div>
-          <div class="news-content">
-            <a href="#"><img src="dsa.jpg" alt="" /></a>
-            <a href="#" style="color: #e60077; text-decoration: none"
-              ><h2>Lightning Talks at FOSS Backstage</h2></a
-            >
-            <p>
-              FOSS Backstage will feature a lightning talk sessions on the first
-              conference day!
-            </p>
 
-            <a href="#" style="color: #e60077; text-decoration: none"
-              >Read More »</a
-            >
-        </div>
+          <div id="news-second-div"> <!--  style="display: flex;" -->
+
+            <div class="news-content">
+              <a href="#"><img src="nn.jpg" alt="" /></a>
+              <a href="#" style="color: #e60077; text-decoration: none">
+                <h2>Your FOSS Backstage Online <br> Experience
+                </h2>
+              </a>
+              <p>
+                Attend flexibly from anywhere in the <br>
+                world with your FOSS Backstage <br>
+                Online ticket. Enjoy sessions on 3 <br>
+                stages & an online workshop!
+              </p>
+
+              <a href="#" style="color: #e60077; text-decoration: none">Read More »</a>
+            </div>
+
+
+            <div class="news-content">
+              <a href=""><img src="rt.jpg" alt="" /></a>
+              <a href="#" style="color: #e60077; text-decoration: none">
+                <h2>All you need to know for <br> your visit to FOSS Backstage</h2>
+              </a>
+              <p>
+                Find out what else you can expect to <br> see at this year’s FOSS
+                Backstage, in <br> addition to the great presentations <br> and workshops.
+              </p>
+              <a href="#" style="color: #e60077; text-decoration: none">Read more »</a>
+            </div>
+
+
+            <div class="news-content">
+              <a href="#"><img src="qq.png" alt="" /></a>
+              <a href="#" style="color: #e60077; text-decoration: none">
+                <h2>Your sustainable journey to <br> FOSS Backstage</h2>
+              </a>
+              <p>
+                Book your trip to FOSS Backstage <br> 2024 with our event ticket from
+                any <br> train station in Germany at fixed <br> prices starting from 55,90€.
+              </p>
+
+              <a href="#" style="color: #e60077; text-decoration: none">Read More »</a>
+            </div>
+
+
+            <div class="news-content">
+              <a href="#"><img src="Board-2-300x170.png" alt="" /></a>
+              <a href="#" style="color: #e60077; text-decoration: none">
+                <h2>CHAOSS gold badge for <br> FOSS Backstage</h2>
+              </a>
+              <p>
+                Once again we are delighted to <br> report that we have been awarded <br>
+                the CHAOSS D&I gold badge.
+              </p>
+
+              <a href="#" style="color: #e60077; text-decoration: none">Read More »</a>
+            </div>
+
+
+            
+
+
+
+          </div>
+        
+        </div> <!--  news div -->
+
+        
       </div>
-    </div>
-  </body>
+
+      <div id="third-content">
+        <div id="content-in-third">
+          <h1>Join us for an extra day!</h1>
+          <p>On <b>March 6th</b> we want to gather everyone interested in User <br>
+            Experience & Design within Free and Open Source software projects <br>
+            for our new sub-event <b>FOSS Backstage Design!</b></p>
+          <button class="dropbtn">Learn more</button>
+        </div>
+          
+      </div>
+  </main>
+
+
+</body>
+
 </html>

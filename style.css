@@ -1,3 +1,6 @@
+ 
+
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
@@ -116,7 +119,7 @@ body {
 
 #head nav img {
   padding: 0;
-  margin-left: 60px;
+  
   width: 150px;
 }
 
@@ -124,7 +127,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 80px;
+  margin-left: 250px;
   /* position: relative; */
 }
 
@@ -234,3 +237,35 @@ body {
   left: 5%;
   top: 0;
 } */
+
+
+
+
+#foot{
+  background-color: #333333;
+  width: 100%;
+  bottom: 0;
+  height: auto;
+  color: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+#first-foot{
+  padding: 20px;
+}
+.p h4{
+  
+}
+
+.p h6{
+  font-size:30px;
+}
+#second-foot{
+  padding: 20px;
+}
+
+#third-foot{
+  padding: 20px;
+}

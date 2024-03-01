@@ -1,6 +1,3 @@
- 
-
-
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
@@ -119,7 +116,7 @@ body {
 
 #head nav img {
   padding: 0;
-  
+
   width: 150px;
 }
 
@@ -172,60 +169,56 @@ body {
   align-items: center;
 }
 
-#news-first-div div h2{
+#news-first-div div h2 {
   font-size: 40px;
 }
 
-#news-first-div div p{
+#news-first-div div p {
   color: rgb(58, 54, 54);
 }
 
 #news-second-div {
   display: flex;
-  
 }
 
-.news-content{
+.news-content {
   padding: 20px 20px 20px 0px;
 }
 
-#news-second-div *{
+#news-second-div * {
   font-size: 19px;
 }
 
-
-#news-second-div a img{
+#news-second-div a img {
   width: 220px;
   height: 120px;
 }
 
-#news-second-div p{
+#news-second-div p {
   color: rgb(58, 54, 54);
 }
 
-
-#third-content{
+#third-content {
   width: 100%;
   height: 400px;
   margin-bottom: 100px; /*  this must be removed after adding fourth content */
   background-color: #6bd9cc;
-  
+
   display: flex;
-  justify-content: center  ;
+  justify-content: center;
   align-items: center;
 }
 
-#content-in-third{
-  display: inlin
+#content-in-third {
+  display: inlin;
 }
 
-#content-in-third h1{
+#content-in-third h1 {
   color: white;
   font-size: 50px;
-  
 }
 
-#content-in-third p{
+#content-in-third p {
   font-size: 20px;
 }
 /* #first-content-img {
@@ -238,10 +231,7 @@ body {
   top: 0;
 } */
 
-
-
-
-#foot{
+#foot {
   background-color: #333333;
   width: 100%;
   bottom: 0;
@@ -253,20 +243,70 @@ body {
   font-size: 20px;
 }
 
-#first-foot{
+#first-foot {
   padding: 100px;
 }
-.p h4{
+#first-foot p h4 {
+  margin: 0;
+  padding: 0;
+}
+
+#first-foot p h6 {
+  margin: 0;
+  padding: 0;
+}
+#second-foot {
+  padding: 100px;
+}
+
+#third-foot {
+  padding: 100px;
+}
+
+#fourth-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+}
+
+#fourth-content h1{
   
+  margin-left: 30px;
+}
+.all-img-setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-img-setting a img {
+  width: 290px;
+  padding: 20px;
 }
 
-.p h6{
-  font-size:30px;
+.fourth-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
 }
-#second-foot{
-  padding: 100px;
-}
+.fourth-button-details {
+  cursor: pointer;
+  background-color: #e60077;
+  color: white;
+  font-size: 20px; 
+  border-color: #e60077;
+  font-weight: bold;
+  padding: 10px;
+  width: 250px;
+  height: auto;
+  
 
-#third-foot{
-  padding: 100px;
+}
+.fourth-button-details:hover {
+  background-color: white;
+  color: #e60077;
+  border-color: #e60077;
 }
